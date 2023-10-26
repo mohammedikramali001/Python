@@ -1,7 +1,7 @@
-#  <center>  <ins> <em>  Python fact finder
+#  <center>  <ins> <em>  Python fact finder 
 ![GIF](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2ZsdGVkbTVqMGowMTVmaGZiNngzdHJmMmQ2eWhpY2N1ZHk2dzRrYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/coxQHKASG60HrHtvkt/giphy.gif)
 ---
-## Define a list and tuple in Python
+## Define a list and tuple in Python.
 
 List and Tuple are built-in container types defined in Python. 
 Objects of both these types can store different other objects that are accessible by index. List as well as tuple is a sequence data type, just as string. List as well as tuple can store objects which need not be of same type.
