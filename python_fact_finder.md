@@ -13,7 +13,7 @@ Objects of both these types can store different other objects that are accessibl
 > print(fruits)
 
 
-## What is a namespace in python?
+## What is a namespace in python??
 
 In Python, a namespace is a system that has a unique name for each and every object. An object might be a variable or a method. e.g. Built-In Namespace, Global Namespace, Local Namespace
 
