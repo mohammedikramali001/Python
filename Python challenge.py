@@ -24,6 +24,24 @@ for prime in prime_numbers:
 # Open a file for writing and store the prime numbers in it
 with open("prime_nums.txt", "w") as file:
     for prime in prime_numbers:
-        file.write({prime})  # Write each prime number to a new line in the file
+        file.write(f"{prime}\n")  # Write each prime number to a new line in the file
 
 
+lower = 0
+upper = 250
+ 
+prime_nums = [];
+ 
+for num in range(lower, upper + 1):
+   # all prime numbers are greater than 1
+   if num > 1:
+       for i in range(2, num):
+           if (num % i) == 0:
+               break
+       else:
+           prime_nums.append(num)
+ 
+f = open('results.txt', 'w')
+print((prime_nums), file = f)
+ 
+print("List of prime numbers within range", lower, "to", upper, "are:", prime_nums)
